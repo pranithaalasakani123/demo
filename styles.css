@@ -1,0 +1,376 @@
+body{
+  text-align: center;
+  margin-bottom: auto;
+}
+/*-----------------background-color----------------------*/
+.nav{
+  background-color:DimGrey;
+}
+.nav1{
+  background-color:DarkGray ;
+}
+/*-----------------------first-part-------------------*/
+.text-allignment{
+  text-align: center;
+  height: 600px;
+}
+.back2{
+  padding-top: 40px;
+}
+.allign{
+  font-size: 5rem;
+  padding-top: 250px;
+}
+.allign1{
+  color: white;
+}
+/*---------------------tag line part-----------------------*/
+.tagline{
+  height:70px;
+}
+.styles{
+  font-size: 3.5rem;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+#styles2{
+   padding-top: 10px;
+   padding-left: 50px;
+   padding-bottom: 40px;
+}
+/*---------------------second part-----------------------*/
+.dresscode{
+  position: relative;
+}
+.dresswidth{
+  width: 450px;
+  height: 250px;
+  left: 800px;
+}
+.casuelswidth{
+  width: 350px;
+  height: 450px;
+  left: 250px;
+}
+.men{
+  top: 250px;
+  left: 30px;
+}
+.casuels{
+  top: 20px;
+}
+.sports{
+  bottom: 480px;
+}
+.street{
+  bottom:430px;
+}
+.street1{
+  bottom:470px;
+}
+.sports1{
+  bottom: 530px;
+}
+.casuels1{
+  top: -20px;
+}
+#casuel-allign{
+  text-align: left;
+  color: black;
+}
+.position{
+  text-align: center;
+  top: 100px;
+}
+.back4{
+  background-color: AliceBlue;
+}
+/*---------------------safe-info-----------------------*/
+.safe-info{
+  height: 200px;
+  text-align: center;
+  padding-top: 90px;
+}
+/*---------------------our story-----------------------*/
+.our-story{
+  height: 500px;
+  padding-left: 200px;
+  padding-top: 50px;
+  text-align: left;
+}
+.final-one{
+  background-color: MintCream;
+  width: 300px;
+  height: 350px;
+}
+.final-second{
+  width: 500px;
+  height: 350px;
+  left:500px;
+  bottom:350px;
+}
+.second-second{
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 30px;
+  font-size: 1rem;
+}
+.gaps{
+  padding-left:40px;
+}
+.moving{
+  padding-right: 150px;
+}
+
+.gap{
+   width: 50%;
+}
+.img-height{
+  height: 10%;
+  width: 10%;
+}
+
+.height{
+  height: 400px;
+}
+.div{
+  width: 10%;
+  height:10%;
+  text-align: center;
+}
+.div1{
+  width: 15%;
+  height:10%;
+  text-align: center;
+}
+.rotated {
+  transform: rotate(270deg); /* Equal to rotateZ(45deg) */
+  background-color: grey;
+}
+.shop-by-style{
+  background-color:Azure;
+  height: 200px;
+  text-align: center;
+  padding-top: 90px;
+}
+.backgropundcolor1{
+      background-color: pink;
+}
+.backgropundcolor2{
+       background-color: Beige;
+}
+.backgropundcolor3{
+       background-color: Bisque;
+}
+#color{
+  color: black;
+  height: 400px;
+  text-align: center;
+  padding-top: 180px;
+}
+/*---------------------contact-----------------------*/
+.first{
+  height: 300px;
+  width: 40%;
+  background-color: AntiqueWhit;
+}
+.second{
+  height: 300px;
+  width: 60%;
+  background-color:  AliceBlue ;
+  position: relative;
+  left: 40%;
+  bottom: 300px;
+}
+.third{
+  height: 300px;
+  width:100%;
+  background-color:Bisque;
+  position: relative;
+  bottom: 300px;
+}
+.contact{
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+/*-----------------------------------------------------------------------third part------------------------------------------------------------------------------*/
+.first-div{
+  height: 300px;
+  width: 300px;
+  background-color:pink;
+}
+.second-div{
+  height: 300px;
+  width: 300px;
+  background-color: mintcream;
+}
+.third-div{
+  height: 300px;
+  width: 300px;
+  background-color:  pink;
+}
+/*----------------------------------------styles-------------------------*/
+body{
+  background-color: black;
+  background-size:cover;
+}
+.hi-slide{
+  position: relative;
+  width: 754px;
+  height: 294px;
+  border-radius:50px;
+  margin:115px auto 0;
+}
+.hi-slide .hi-next,
+.hi-slide .hi-prev{
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  cursor:pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover{
+  opacity: 1;
+  background-color: white;
+}
+.hi-slide .hi-prev{
+  left:-80px;
+}
+.hi-slide .hi-prev::before{
+  content:'<';
+}
+.hi-slide .hi-next{
+  right: -80px;
+}
+
+.hi-slide .hi-next::before{
+  content:'>';
+}
+.hi-slide > ul{
+  list-style:none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin:0;
+  padding:0;
+}
+.hi-slide > ul > li{
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left:377px;
+  top: 147px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid white;
+  cursor: pointer;
+  background-color: #333;
+}
+.hi-slide > ul > li > div{
+  width: 100%;
+  height:100%;
+  background-position: center;
+
+}
+.first-div{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+.second-div{
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+.third-div{
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+}
+/*----------------------------------------styles-------------------------*/
+body{
+  background-color: black;
+  background-size:cover;
+}
+.hi-slide{
+  position: relative;
+  width: 754px;
+  height: 294px;
+  border-radius:50px;
+  margin:115px auto 0;
+}
+.hi-slide .hi-next,
+.hi-slide .hi-prev{
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  cursor:pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover{
+  opacity: 1;
+  background-color: white;
+}
+.hi-slide .hi-prev{
+  left:-60px;
+}
+.hi-slide .hi-prev::before{
+  content:'<';
+}
+.hi-slide .hi-next{
+  right: -60px;
+}
+
+.hi-slide .hi-next::before{
+  content:'>';
+}
+.hi-slide > ul{
+  list-style:none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin:0;
+  padding:0;
+}
+.hi-slide > ul > li{
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left:377px;
+  top: 147px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid white;
+  cursor: pointer;
+  background-color: #333;
+}
+.hi-slide > ul > li > div{
+  width: 100%;
+  height:100%;
+  background-position: center;
+}
